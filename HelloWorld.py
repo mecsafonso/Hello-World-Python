@@ -36,3 +36,11 @@ print (spam)
 # A variable is initialized (or created) the first time a value is stored in it.
 # After that, you can use it in expressions with other variables and values.
 # When a variable is assigned a new value, the old value is forgotten
+
+
+# The str(), int(), and float() Functions
+# We use this functions to pass them values of the other data types to obtain a string, a integer, our floating-point from of those values.
+
+str(-3.14) #'-3.14' 
+int('42') #42
+float(10) #10.0
