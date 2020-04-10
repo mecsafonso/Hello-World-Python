@@ -12,5 +12,12 @@ print ('Hello World!')
 #   +               Addition                2 + 2               4
 
 
+# Data Types
+
+#   Integers                -2, -1, 0, 1, 3,
+#   Floating-point numbers  -1.25, -1.0, --0.5, 0.0, 0.5, 1.0
+#   Strings                  'a', 'aa', 'aaa', 'Hola'
+
+ 
 
 print ('Goodbye cruel world!')
