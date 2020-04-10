@@ -25,3 +25,14 @@ print('Mecs' + 'Afonso')
 print('Mecs' * 5) 
 
 print ('Goodbye cruel world!')
+
+
+# Assignment Statemets
+# The equal sign is called the assignment operator
+spam = 40
+eggs = 3
+spam = spam + eggs
+print (spam)
+# A variable is initialized (or created) the first time a value is stored in it.
+# After that, you can use it in expressions with other variables and values.
+# When a variable is assigned a new value, the old value is forgotten
