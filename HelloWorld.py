@@ -18,6 +18,10 @@ print ('Hello World!')
 #   Floating-point numbers  -1.25, -1.0, --0.5, 0.0, 0.5, 1.0
 #   Strings                  'a', 'aa', 'aaa', 'Hola'
 
- 
+# When + operator is used on two string values, it joins the strings as the string concatenation operator.
+print('Mecs' + 'Afonso')
+
+# When * operator is used on one string value and one integre value, it becomes the string replication operator.
+print('Mecs' * 5) 
 
 print ('Goodbye cruel world!')
