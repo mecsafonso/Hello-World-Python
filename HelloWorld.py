@@ -74,5 +74,11 @@ float(10) #10.0
 # And, Or and Not
 # And: Only true if both are True
 # Or: Only false if both are False
-# Not: The not operator simply evaluates to the opposite Boolean value. 
+# Not: The not operator simply evaluates to the opposite Boolean value.
 
+
+# Mixing Boolean and Comparison Operators
+# Recall that the and, or, and not operators are called Boolean operators because they always operate on the Boolean values True and False. 
+# While expressions like 4 < 5 aren’t Boolean values, they are expressions that evaluate down to Boolean values. 
+
+print( 2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2) #True
