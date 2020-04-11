@@ -150,3 +150,15 @@ while spam < 5:
 print('My name is')
 for i in range(5):
     print('Jimmy Five Times (' + str(i) + ')')
+
+
+
+# The Starting, Stopping, and Stepping Arguments to range()
+#   Some functions can be called with multiple arguments separated by a comma, and range() is one of them
+
+for i in range(12, 100):     #The first argument will be where the foor loop´s variable starts, and the second argument will be up to, but not includin, the numbre to stop at.
+    print(i)            
+
+for i in range (0, 10, 2):   #The first two arguments will be the start and stop valyes, and the thrd will be the step argument. The step is the amount that the variable is increase by after each iteration.
+    print(i)
+    
