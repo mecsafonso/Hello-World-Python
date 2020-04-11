@@ -69,3 +69,10 @@ float(10) #10.0
 
 #The <, >, <=, and >= operators, on the other hand, work properly only with integer and floating-point values.
 
+
+# Boolean Operators
+# And, Or and Not
+# And: Only true if both are True
+# Or: Only false if both are False
+# Not: The not operator simply evaluates to the opposite Boolean value. 
+
