@@ -82,3 +82,63 @@ float(10) #10.0
 # While expressions like 4 < 5 aren’t Boolean values, they are expressions that evaluate down to Boolean values. 
 
 print( 2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2) #True
+
+
+
+# Flow Control Statements
+
+#   if Statements
+#           An if statement’s clause (that is, the block following the if statement) will execute if the statement’s condition is True. 
+#           The clause is skipped if the condition is False.
+
+name = 'Alice'
+
+if name == 'Alice' :
+    print('Hi, Alice.')
+
+
+#   else Statements
+#           An if clause can optionally be followed by an else statement. 
+#           The else clause is executed only when the if statement’s condition is False. 
+
+if name == 'John':
+    print('Hi, John')
+else:
+    print('John? Where u are')
+
+
+#   elif Statements
+#           While only one of the if or else clauses will execute, you may have a case where you want one of many possible clauses to execute. 
+#           The elif statement is an “else if” statement that always follows an if or another elif statement.
+#           It provides another condition that is checked only if any of the previous conditions were False.
+
+if name == 'Mecs':
+    print('Hi, Mecs')
+elif name == 'Alice':
+    print('Oh, Its you Alice, I was waiting Mecs')
+
+
+#   while Loop Statements
+#           You can make a block of code execute over and over again with a while statement.
+#           The code in a while clause will be executed as long as the while statement’s condition is True.   
+
+spam = 0
+while spam < 5:
+    print('Hi :)')
+    spam = spam + 1
+
+
+#   break Statements
+#           There is a shortcut to getting the program execution to break out of a while loop's clause early.
+#           If the execution reaches a break statements, it immediately exits the while loop´s clause.
+#           In code, a break statement simply contains the break keyword.
+# (See yourName2.py)
+
+
+#   continue Statements
+#           Like break statements, continue statements are used inside loops. 
+#           When theprogram execution reaches a continue statement, the program execution immediately jumps back to the start of the loop and reevaluates the loop’s condition. 
+#           (This is also what happens when the execution reaches the endof the loop.)
+
+
+
