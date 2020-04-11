@@ -44,3 +44,7 @@ print (spam)
 str(-3.14) #'-3.14' 
 int('42') #42
 float(10) #10.0
+
+
+# Boolean Values
+# The Boolean data type has only two values: True and False
