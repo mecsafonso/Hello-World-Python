@@ -48,3 +48,24 @@ float(10) #10.0
 
 # Boolean Values
 # The Boolean data type has only two values: True and False
+
+# Comparison Operators
+#   Compare two values and evaluate down to a single Boolean value.
+#   Operator        Meaning
+#      ==           Equal to
+#      !=           Not equal to
+#      <            Less than
+#      >            Greater than
+#      <=           Less than or equal to
+#      >=           Greater than or equal to
+
+42 == 42 #True
+42 == 99 #False
+2 != 3 #True
+2 != 2 #False      
+
+#Not than an integer of floating-point value will always be unequal to a string value.
+#The expression 42 == '42' evaluates to False because Python consider the integer 42 to be different from the string '42'.
+
+#The <, >, <=, and >= operators, on the other hand, work properly only with integer and floating-point values.
+
